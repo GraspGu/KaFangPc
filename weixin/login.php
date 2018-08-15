@@ -2,7 +2,7 @@
 session_start();
 //检查是否有会话
 if(@$_SESSION["unionidSession"]!=null){
-  $url = "http://www.ka-fang.cn:8080";
+  $url = "*****";
   echo "<script language='javascript' type='text/javascript'>";
   echo "window.location.href='$url'";
   echo "</script>";
@@ -20,9 +20,9 @@ exit;
         <script>
             var obj = new WxLogin({
               id: "login_container",
-              appid: "wxe635c8106a62cbde",
+              appid: "*****",
               scope: "snsapi_login",
-              redirect_uri:encodeURI("http://www.ka-fang.cn:8080/weixin/index.php"),
+              redirect_uri:encodeURI("http://*****/weixin/index.php"),
               state: Math.ceil(Math.random()*1000),
               style: "black",
               href: ""});
