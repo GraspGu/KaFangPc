@@ -2,14 +2,14 @@
 session_start();
 require $_SERVER['DOCUMENT_ROOT'].'/inc/conn.php';
 if(@$_SESSION["unionidSession"]==null){
-    $url = "http://www.ka-fang.cn:8080/weixin/login.php";
+    $url = "*****/weixin/login.php";
     echo "<script language='javascript' type='text/javascript'>";
     echo "window.location.href='$url'";
     echo "</script>";
 }
         $code = $_GET["code"];
-        $appid = "wxe635c8106a62cbde";
-        $secret = "f44b2867407de523280cf113bc714370";
+        $appid = "*****";
+        $secret = "*****";
         if (!empty($code))  //有code
         {
             //通过code获得 access_token + openid
@@ -40,12 +40,12 @@ if(@$_SESSION["unionidSession"]==null){
 		$sql_insert = "insert into user_basic_info(user_id,name) values('$unionid','$name')";
 	    mysql_query($sql_insert);
 		
-	    $url = "http://www.ka-fang.cn:8080";
+	    $url = "*****";
 	    echo "<script language='javascript' type='text/javascript'>";
 	    echo "window.location.href='$url'";
 	    echo "</script>";
 	}elseif(mysql_num_rows($sql_select_rs) == '1'){
-	    $url = "http://www.ka-fang.cn:8080";
+	    $url = "*****";
 	    echo "<script language='javascript' type='text/javascript'>";
 	    echo "window.location.href='$url'";
 	    echo "</script>";
