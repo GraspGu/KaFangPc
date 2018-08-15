@@ -1,0 +1,116 @@
+@charset "UTF-8";
+*{padding:0;margin:0;}
+body{background: url(../images/官网及公号样衣展示页背景.jpg);min-width: 1345px;}
+#container{width: 1280px;margin: 0 auto;}
+#navbar{margin:0 auto;width: 1000px;height: 60px;}
+#navbar ul li{float: left;list-style: none;margin-right: -50px;margin-top: 10px;}
+#navbar ul li img{height: 50px;}
+
+/*标题部分*/
+#head_bottom{margin-top: 30px;}
+/*面料展示部分*/
+#classic{
+    width: 300px;
+    height: 50px;
+    background-color: #000;
+    margin-left: 300px;
+    color: #ccc;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: "黑体";
+    text-align: center;
+}
+#classic_b{
+    float: right;
+    margin-top: -40px;
+    margin-right: 400px;
+    font-size: 30px;
+    color: #222;
+    font-family: "黑体"}
+#classic_r{
+    width: 100px;
+    float: right;
+    display: inline;
+    margin-right: 400px;
+    margin-top: 40px;
+}
+.zxx_zoom_image{
+    width: 100px;
+    height: 140px;
+}
+
+#classic_ul{
+    margin-left: 260px;
+    margin-top: 50px;
+}
+/*收藏按钮*/
+#fabric_coll{
+    text-decoration: none;
+    color: #f40;
+    font-size: 16px;
+}
+#fabric_coll:hover{
+    background-color: #ccc;
+    color: #222;
+    font-size: 16px;
+}
+/*左侧信息列表*/
+#head_bottom ul{
+    float: left;
+    margin-left: 30px;
+}
+#head_bottom ul li{
+    color: #222;
+    list-style: none;
+    margin:10px 10px;
+}
+#head_bottom ul li p{
+    font-size: 16px;
+    color: #222;
+    font-family: "微软雅黑";
+}
+#head_bottom h3{
+    margin-left: 120px;
+    font-family: "微软雅黑";
+    color: #333;
+}
+/*衬衫展示主体*/
+.slide{
+    width: 1280px;
+    text-align: center;
+}
+#body{
+    width: 1280px;
+    margin:0 auto;
+}
+#body ul{
+    width: 1210px;
+    height: 350px;
+    margin:0 auto;
+}
+#body ul li{
+    float: left;
+    list-style: none;
+    height: 350px;
+    width:192px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding:5px;
+    margin-bottom: 30px;
+}
+#body .fabric_con img{
+    height: 300px;
+    display: block;
+    margin:0 auto;
+}
+#body ul li p{
+    text-align: center;
+    border: 1px solid #222;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #222;
+    font-family: "微软雅黑";
+}
+.button_in img{
+    width:192px;
+}

@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/*所有页面的数据部分的样式*/
+table td{
+    height: 30px;
+    border-bottom:1px dotted #4791ff;
+    text-align: right;
+}
+table td input{
+    height: 20px;
+    border: 1px #ccc solid;
+}
+table td input:hover{
+    border: 1px #4791ff solid;
+}
+h3{
+    text-align: center;
+    color: #f40;
+    margin:10px 0;
+    height: 30px;
+}
+#manual_input{
+    width: 1000px;
+    border:1px #222 solid;
+    margin: 20px auto;
+    margin-top: 30px;
+    font-family: "微软雅黑";
+    margin-bottom: 50px;
+    padding: 20px 0;
+}
+#manual_input form{
+    width: 600px;
+    margin:0 auto;
+}
+
+.submit input,.td_submit input{
+    border:none;
+    background:#4791ff;
+    display:block;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 5px auto 5px;
+    font-family: "微软雅黑";
+}
+.submit a{
+    background:#4791ff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-family: "微软雅黑";
+    text-align: center;
+}
+#submit_one,#submit_two{
+    height: 35px;
+}
+.left_input{
+    padding-right: 30px;
+    text-align: left;
+}
+select{
+    float: left;
+}
+#caption p{
+    float: left;
+}
+#caption input{
+    width: 100%;
+}
+/*所有页面的数据显示部分*/
+#measure_table{
+    width: 450px;
+    margin:0 auto;
+    font-family: "微软雅黑";
+}
+#measure_table h3{
+    width: 600px;
+    text-align: center;
+}
+#measure_table img{
+    float: left;
+    cursor: pointer;
+}
+#measure_table label{
+    float: left;
+}
+#measure_table h3 a{
+    float: right;
+    margin-right: 70px;
+}
+#measure_table table{
+    display: none;
+}
+/*图片上传部分*/
+#upload_file{
+    width: 550px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+#upload_file table td{
+    text-align: center;
+    width: 120px;
+}
+#upload_file table a{
+    border:none;
+    background:#4791ff;
+    display:block;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 5px auto 5px;
+    font-family: "微软雅黑";
+}
+
+#img_submit{
+    margin: 0 auto;
+    width: 250px;
+}
+#img_submit td{
+    text-align: left;
+}
+
+/*view_volume_data页面的图片及信息显示*/
+#photo_opion{
+    width: 1000px;
+    height: 1300px;
+    border:1px #222 solid;
+    margin: 20px auto;
+    margin-top: 30px;
+    font-family: "微软雅黑";
+    margin-bottom: 50px;
+    padding: 20px 0;
+}
+#photo_opion .part{
+    width: 400px;
+    height: 200px;
+    overflow: auto;
+    float: left;
+    background-color: #99FFCC;
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#photo_opion ul{
+    height: 200px;
+    width: 400px;
+}
+#photo_opion ul li{
+    height: 200px;
+    width: 130px;
+    float: left;
+    list-style: none;
+}
+#photo_opion .vertical_p{
+    width: 18px;
+    font-size: 18px;
+    line-height: 18px;
+    margin:60px auto 0;
+    color: #000;
+    border:1px #ccc solid;
+    padding:15px 2px;
+}
+#photo_opion .transverse_p{
+    line-height: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+#photo_opion ul img{
+    width: 130px;
+    height: 180px;
+}
+#photo_opion a{
+    float: left;
+    background:#4791ff;
+    display:block;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 5px auto 5px;
+    font-family: "微软雅黑";
+    margin-top:50px;
+    margin-left:270px;
+}

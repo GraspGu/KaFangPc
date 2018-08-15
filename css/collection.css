@@ -1,0 +1,145 @@
+@charset "UTF-8";
+*{padding:0;margin:0;}
+body{background:url(../images/官网及公号样衣展示页背景.jpg); width: 1280px;margin:0 auto;}
+html{overflow-x:hidden}
+#container{margin: 0 auto;}
+#navbar{margin:0 auto;width: 1000px;height: 80px;}
+#navbar ul li{float: left;list-style: none;margin-right: -50px;margin-top: 10px;}
+#navbar ul li img{height: 50px;}
+h2{color: #666;text-align: center;}
+a{text-decoration: none;color: #666;text-align: center;cursor: pointer;}
+#welcome label{
+    color: #f40;
+}
+/*左侧标签*/
+#toggle ul{
+    width:80px;
+    display: block;
+    background-color: #ccc;
+    /*使用margin;0 atuo;不能同时设置浮动且要有确定的宽度值*/
+}
+/*左侧收藏购物车切换*/
+#toggle ul a li{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color: #666;
+    float: left;
+    text-align: center;
+    font-style: normal;
+    margin-right: 10px;
+}
+#toggle ul a li:hover{
+    background-color: #666;
+    color: #f40;
+    font-style: normal;
+}
+#toggle a{
+    text-decoration: none;
+    cursor:pointer;
+}
+#toggle ul .select{
+    color: #f40;
+    font-style: normal;
+    border-bottom: 1px solid #f40;
+}
+/*主体部分*/
+#body{
+    width: 80%;
+    margin: 50px auto;
+    border: 1px #222 dotted;
+}
+.collection_wrap{
+    width: 1020px;
+    overflow-x:auto;
+    border: 1px #222 solid;
+    background-color: rgb(52,52,52);
+}
+.collection_table{
+    width: 5000px;
+    margin-left: 50px;
+}
+.collection_inner_wrap{
+    position: relative;
+    float: left;
+    border: 1px #666 solid;
+    background-color: rgb(52,52,52);
+    margin:10px 45px 10px 10px;
+    padding:5px
+}
+.collection_table img{
+    height: 400px;
+
+}
+.collection_table p{
+    text-align: center;
+    font-size: 18px;
+    color: #ccc;
+    font-family: "黑体";
+    border-bottom:1px dotted #222;
+    margin-bottom: 5px;
+}
+/*删除按钮*/
+.del{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+    color: #666;
+    z-index: 10;
+}
+.collection_inner_wrap:hover .del{
+    display: block;
+}
+/*收藏部分*/
+#body_collection_head{
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+}
+#body_collection_head p{
+    text-decoration: none;
+}
+#body_collection_head .select{
+    color: #f40;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*购物车部分*/
+#body_shopping h2{
+    margin-top: 10px;
+}
+.shopping_ul
+{
+    height: 200px;
+    margin:10px 10px 10px 10px;
+    background-color: rgb(52,52,52);
+}
+.shopping_ul li{
+    list-style: none;
+}
+.shopping_ul li img{
+    height: 180px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.shopping_ul p{
+    text-align: center;
+    font-size: 18px;
+    color: #ccc;
+    font-family: "黑体";
+    border-bottom:1px dotted #222;
+    margin-bottom: 5px;
+}
+.shopping_inner_ul li{
+    float: left;
+    width: 160px;
+}
+.shopping_inner_ul li h3{
+    color: #f40;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}

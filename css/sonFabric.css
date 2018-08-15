@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{padding:0;margin:0;}
+body{background: url(../images/官网及公号样衣展示页背景.jpg);min-width: 1280px;}
+#container{width: 1280px;margin: 0 auto;}
+#navbar{margin:0 auto;width: 1000px;height: 60px;}
+#navbar ul li{float: left;list-style: none;margin-right: -50px;margin-top: 10px;}
+#navbar ul li img{height: 50px;}
+
+#head_line{margin:30px auto;width: 600px;}
+#classic{width: 300px;height: 50px;color: #ccc;font-size: 40px;line-height: 50px;font-family: "黑体";background-color: #000;text-align: center;}
+#classic_r{float: right;margin-top: -40px;font-size: 30px;color: #222;font-family: "黑体"}
+
+.body{height:300px;margin-bottom: 100px;}
+.body ul li{float: left;list-style: none;margin-right: 15px;height: 300px;}
+.body ul li div{width: 200px;}
+.body_right img,.zxx_zoom_image{height: 300px;display: block;margin:0 auto 10px;}
+
+/*这里外部div使用display:table;内部div使用display:table-cell; vertical-align:middle;使文字竖排并垂直居中。注意外部div宽度要和文字宽度一致。*/
+.body_left{float: left;height: 300px;width: 74px;background: url(../images/子类商城页/墨绿纯色-卷轴.png) no-repeat;margin-right: 50px;}
+.reel_out{height:300px;margin:0 auto;display:table;}/**/
+.reel{color: #888;font-family: "黑体";z-index: 10;vertical-align:middle; text-align: center;font-size: 28px;width:28px;display:table-cell;word-wrap:break-word;}
+/**/
+/*
+文字竖排的另一种方法：
+对文字容器进行设置：
+margin:0 auto;line-height: 28px;font-size: 25px;word-wrap:break-word;width: 25px;height:300px;
+ */
+
+.body_bottom_cd,.body_bottom_p{font-size: 18px;color: #222;font-family: "微软雅黑";text-align: center;border: 1px #222 solid;margin-top: 10px;padding: 1px 0;}
+.body_bottom_cd:hover{
+    background-color: #ccc
+}
+.cd{padding-right: 50px;}
+a{
+    text-decoration: none;
+}

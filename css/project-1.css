@@ -1,0 +1,34 @@
+@charset "UTF-8";
+*{padding:0;margin:0;}
+html{overflow-x:hidden}
+body {background: url(../images/首页/官网及公号首页背景.jpg); min-width: 1366px;width:expression(document.body.clientWidth < 1366? "1366px": "auto" );}
+#container{margin: 0 auto;}
+#navbar{margin:0 auto;width: 1000px;}
+#navbar ul li{float: left;list-style: none;margin-right: -50px;margin-top: 10px;}
+#navbar ul li img{height: 50px;}
+
+#nav_bottom{
+    width: 50%;
+    margin:0 auto;
+}
+#nav_bottom img{
+    width: 100%;
+}
+#white{
+    width: 30.9%;
+    margin: 0 auto;
+    height: 160px;
+}
+#white_left{
+    float: left;
+}
+#white_right{
+    float: right;
+}
+.button_in{
+    width: 200px;
+    margin:-20px auto 0;
+}
+#online #online_system{
+    text-align: center;
+}

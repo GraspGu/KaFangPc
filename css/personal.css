@@ -1,0 +1,186 @@
+@charset "UTF-8";
+*{padding:0;margin:0;}
+body{background: url(../images/官网及公号样衣展示页背景.jpg);min-width: 1280px;margin:0 auto;}
+html{overflow-x:hidden}
+#container{margin: 0 auto;}
+#navbar{margin:0 auto;width: 1000px;height: 80px;}
+#navbar ul li{float: left;list-style: none;margin-right: -50px;margin-top: 10px;}
+#navbar ul li img{height: 50px;}
+
+h2{color: #666;text-align: center;}
+a{text-decoration: none;color: #222;}
+table{
+    margin: 15px auto 0;
+}
+/*所有的单元格样式*/
+table tr td,table th{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted;
+    width: 500px;
+    color: #000;
+}
+/*欢迎语句*/
+#welcome label{
+    color: #f40;
+}
+#body{
+    width: 80%;
+    height: 500px;
+    margin: 50px auto;
+    border: 1px #ccc solid;
+}
+/*左主体*/
+#body_left{
+    float: left;
+    width: 30%;
+    border: 1px #666 dotted;
+    margin: 20px;
+}
+#body_left h3,#body_right h3{
+    text-align: center;
+    background-color: #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#body_left ul{
+    width: 70%;
+    display: block;
+    margin : 50px auto;
+    background-color: #ccc;
+    /*使用margin;0 atuo;不能同时设置浮动且要有确定的宽度值*/
+}
+#body_left ul a li{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color: #000;
+    margin : 0px auto;
+    text-align: center;
+}
+#body_left ul a li:hover{
+    background-color: #666;
+    color: #fff;
+}
+#body_left a{
+    text-decoration: none;
+    cursor:pointer;
+}
+#body_left ul .select{
+    background-color: #666;
+    color: #fff;
+}
+/*右主体*/
+#body_right{
+    float: right;
+    width: 60%;
+    border: 1px #666 dotted;
+    margin: 20px;
+}
+/*表格容器*/
+#table_wrap{
+    height: 430px;
+    overflow-y:auto;
+}
+/*修改信息标签*/
+#modify_form tr td{
+    width: 100px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/*修改信息按钮*/
+#submit input{
+    cursor: pointer;
+    background-color: #666;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    width: 60px;
+    border-radius: 10px;
+}
+/*默认隐藏除个人信息外的标签*/
+#address_table,#body_table,#modify_form,#history_div,#version_div{
+    display: none;
+}
+/*地址信息*/
+#address_table a{
+    color:#222;
+}
+#address_table a:hover{
+    background-color: #666;
+    color: #fff;
+}
+/*量体信息分页展示*/
+#body_table p,#version_div p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px dotted;
+    border-bottom: 1px dotted;
+    width: 80%;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#body_table a{
+    color:#222;
+    float: right;
+    margin-top: -40px;
+    padding: 5px;
+}
+#body_table a:hover,#version_div a:hover{
+    background-color: #666;
+    color: #fff;
+}
+#body_table table{
+    display: none;
+}
+/*版型信息容器*/
+#version_div table{
+    display: none;
+}
+#version_div p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px dotted;
+    border-bottom: 1px dotted;
+    width: 80%;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/*历史订单容器*/
+#history_div ul{
+    width: 100%;
+    height: 110px;
+    margin:0 auto 5px;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    float: left;
+}
+#history_div ul li {
+    width: 150px;
+    height: 110px;
+    float: left;
+    list-style: none;
+}
+#history_div ul li p,h4{
+    text-align: center;
+}
+#history_div img{
+    height: 100px;
+    margin:5px 0 5px 40px;;
+}
+#history_div h4{
+    color: #f40;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#history_div p{
+    color: #000;
+    margin-bottom: 5px;
+}
