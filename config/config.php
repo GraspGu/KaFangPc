@@ -1,10 +1,10 @@
 <?php
 return array(
-    'host' => 'localhost',
-    'pory' => '3306',
-    'name' => 'root',
-    'pwd'  => 'password',
-    'database' => 'chisquare',
+    'host' => '*****',
+    'pory' => '*****',
+    'name' => '*****',
+    'pwd'  => '*****',
+    'database' => '*****',
     'charset'  => 'utf8'
     );
  ?>
